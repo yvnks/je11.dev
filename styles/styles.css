@@ -206,6 +206,9 @@ footer {
 @media (max-width: 768px) {
   .project-grid {
     grid-template-columns: 1fr;
-    gap: 20px;
+    gap: 10px;
   }
+
+  .hero-title {
+    font-size: 1.5rem;
 }
