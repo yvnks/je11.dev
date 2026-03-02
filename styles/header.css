@@ -1,0 +1,37 @@
+/* ========================
+   HEADER 
+==========================*/
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 120px;
+
+}
+
+.logo {
+  padding-left: 20px;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: flex-end;
+  flex: 1;
+  gap: 1rem;
+  padding-right: 24px;
+}
+
+.nav-links > p {
+  color: rgb(121, 121, 121);
+}
+
+.nav-links > button {
+  background-color: #000;
+  color: #fff;
+  padding: 6px;
+  border: none;
+  border-radius: 6px;
+  font-size: 0.75rem;
+}
+
+
