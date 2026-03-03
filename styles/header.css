@@ -6,11 +6,12 @@
   justify-content: space-between;
   align-items: center;
   margin-bottom: 120px;
+  padding: 20px 10%;
 
 }
 
-.logo {
-  padding-left: 20px;
+.logo > strong{
+  color: #fff;
 }
 
 .nav-links {
@@ -21,17 +22,28 @@
   padding-right: 24px;
 }
 
-.nav-links > p {
-  color: rgb(121, 121, 121);
+.nav-links > p > a{
+  color: rgb(0, 0, 0);
+  text-decoration: none;
 }
 
 .nav-links > button {
-  background-color: #000;
-  color: #fff;
+  background-color: #fff;
+  color: #000;
   padding: 6px;
   border: none;
   border-radius: 6px;
-  font-size: 0.75rem;
+  font-size: 0.9rem;
 }
 
+@media (max-width: 480px) {
+  .container {
+    padding: 15px 2%;
+  }
+
+  .nav-links > p > a {
+    color: black;
+    cursor: pointer;
+  }
+}
 
