@@ -28,6 +28,7 @@ footer {
   flex-direction: row-reverse;
   align-items: row-reverse;
   justify-content: center;
+  color: #fff;
 }
 
 .git-link {
