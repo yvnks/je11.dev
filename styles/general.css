@@ -38,10 +38,15 @@ footer {
   .hero {
     margin-bottom: 200px;
   }
+  
   .hero-title {
     margin-top: 200px;
     color: #fff;
     font-size: 3rem;
+  }
+
+  .hero-title span {
+    color: rgba(255, 255, 255, 0.6);
   }
 
   .footer-page p {
