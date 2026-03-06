@@ -10,8 +10,8 @@
 
 }
 
-.logo > strong{
-  color: #fff;
+.logo > p{
+  color:  rgb(255, 255, 255);
 }
 
 .nav-links {
@@ -23,7 +23,7 @@
 }
 
 .nav-links > p > a{
-  color: rgb(0, 0, 0);
+  color:  rgb(255, 255, 255);
   text-decoration: none;
 }
 
@@ -42,7 +42,7 @@
   }
 
   .nav-links > p > a {
-    color: black;
+    color: #fff;
     cursor: pointer;
   }
 }
