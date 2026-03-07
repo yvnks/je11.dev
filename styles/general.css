@@ -45,7 +45,7 @@ footer {
     font-size: 3rem;
     font-weight: 500;
     text-transform: capitalize;
-    line-height: 1.5px;
+    line-height: 3;
   }
 
   .hero-title span {
